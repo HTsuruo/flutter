@@ -232,7 +232,7 @@ void main() {
     expect(theme.displayLarge!.fontFamily, 'Roboto');
     expect(theme.displayLarge!.fontSize, 57.0);
     expect(theme.displayLarge!.fontWeight, FontWeight.w400);
-    expect(theme.displayLarge!.letterSpacing, -0.25);
+    expect(theme.displayLarge!.letterSpacing, 0);
     expect(theme.displayLarge!.height, 1.12);
     expect(theme.displayLarge!.textBaseline, TextBaseline.alphabetic);
     expect(theme.displayLarge!.leadingDistribution, TextLeadingDistribution.even);
